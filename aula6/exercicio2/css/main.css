@@ -1,0 +1,41 @@
+html {background: url(horario-de-funcionamento.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  background: rgba(27, 104, 167, 0.801);
+  width: 600px;
+  height: 730px;
+  align-items: left;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  box-shadow: 0 0 20px black;
+}
+
+.input input {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border:none;
+  outline: 0;
+  font: arial 3.0rem serif;
+  text-align: left;
+}
+
+button{
+  width: 300px;
+  height: 40px;
+  font: bold 1.2rem serif;
+  background: rgb(251, 255, 0);
+  color: rgb(0, 0, 0);
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
